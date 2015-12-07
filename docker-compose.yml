@@ -1,0 +1,7 @@
+base:
+  build: .
+  dockerfile: Dockerfile
+
+phantomjs:
+  build: .
+  dockerfile: Dockerfile.phantomjs

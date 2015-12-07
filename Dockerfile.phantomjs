@@ -1,0 +1,9 @@
+FROM splinter_base
+
+#Get from oficial node image
+RUN apt-get install curl && \
+    curl -sL https://deb.nodesource.com/setup_5.x | bash -
+
+RUN apt-get install -y nodejs build-essential
+
+RUN npm install -g phantomjs
