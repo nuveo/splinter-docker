@@ -7,7 +7,7 @@ $ docker-compose build
 ## Build *without* docker-compose
 ```
 $ docker build -t splinter_base .
-$ docker build -f Dockerfile.phantomjs -t spliter_phantomjs .
+$ docker build -f Dockerfile.phantomjs -t splinter_phantomjs .
 ```
 ## Run
 ```
