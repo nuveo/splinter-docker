@@ -1,4 +1,4 @@
-#splinter-docker
+# splinter-docker
 
 ## Build *with* docker-compose
 ```
